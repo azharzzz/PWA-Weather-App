@@ -1,24 +1,28 @@
-# yarn-vuecli-app-1
+## Getting Started
 
-## Project setup
-```
-yarn install
-```
+### Clone the Repository
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Clone the repository from the following location:
 
-### Compiles and minifies for production
-```
-yarn build
-```
+    https://github.com/azharzzz/PWA-Weather-App.git
+    
+### Install
 
-### Lints and fixes files
-```
-yarn lint
-```
+Open command prompt and navigate to the directory where the above source is cloned.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Run the following command to install required packages:
+
+    yarn install
+### Run in Local Environment
+
+Run the following command to run the application in local development server
+
+    yarn serve
+
+Open the application in browser: http://localhost:8080.
+
+### Build Production Output
+
+Run the following command to build production output to be deployed in production server
+
+    yarn build
